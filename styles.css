@@ -1,0 +1,17 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 1rem;
+    width: 25%;
+    height: 245px;
+    background-color: red;
+    border-radius: 50%;
+}

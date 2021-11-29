@@ -1,0 +1,67 @@
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#topSection {
+    border: 1px solid black;
+    padding: 2rem;/*Tamaño de la fuente del elemento HTML*/
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+h1 {
+    color: #2bb2b1;
+}
+
+section > h3 { /*hijos*/
+    color: #bedf33;
+}
+
+section > p {
+        color: #d4d8dd;
+}
+
+#bottomSection {
+    display: flex;
+    color: white;/**/
+}
+
+.left-section {
+    width: 50%;
+    height: 25rem;
+    padding: 2.5rem;
+    background-color: #2bb2b1;
+}
+
+span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+.right-section {
+    width: 50%;
+    height: 25rem;
+    padding: 2.5rem;
+    background-color: #49bdbd;
+}
+
+#bottomSection > .left-section > button {
+    background-color: #bedf33;
+    height: 48px;
+    width: 200px;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#buttonGreen {
+    background-color: red;
+}
+
+
